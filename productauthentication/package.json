@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.12",
+    "ganache": "^7.8.0",
+    "solc": "^0.8.20",
+    "truffle": "^5.10.0"
+  },
+  "scripts": {
+
+    "test": "echo\"Error: no test specified\"&& exit 1",
+    "ganache": "ganache-cli --networkId"
+  },
+  "config": {
+    "ganache": {
+      "networkId": "1687007616243"
+    }
+  },
+
+  "devDependencies": {
+    "ganache-cli": "^6.12.2"
+  }
+}
